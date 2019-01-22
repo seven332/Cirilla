@@ -93,7 +93,7 @@ namespace MaxDecorationLevel
             if (style == null)
             {
                 var language = gmd.Header.Language;
-                if (language == 7 /* chT */ || language == 0 /* jpn */ || language == 6 /* kor */)
+                if (language == 8 /* chS */ || language == 7 /* chT */ || language == 0 /* jpn */ || language == 6 /* kor */)
                 {
                     style = "%s<STYL MOJI_YELLOW_DEFAULT>（%d）</STYL>";
                 } else
